@@ -10,6 +10,9 @@ switch (colocacao) {
     case 3:
         console.log("Terceiro Lugar.")
         break
+    case 4: case 5: case 6:
+        console.log("Prêmio de participação.")
+        break
     default:
         console.log("Não ficou no pódio.")
         break
